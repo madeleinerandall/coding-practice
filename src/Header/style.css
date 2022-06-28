@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+#spacing {
+    height: 100px;
+}
+
+header {
+    background-color: #f3cad7;
+    width: 100%;
+    position: fixed;
+}
+
+h1 {
+    color: white;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.menubar {
+    height: 50px;
+    width: auto;
+    z-index: 2;
+    cursor: pointer;
+}

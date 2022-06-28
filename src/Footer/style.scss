@@ -1,0 +1,150 @@
+footer {
+    background-color: #f2cad8;
+    color: white;
+    font-family: "Lato";
+
+    .shape-position {
+        display: flex;
+        justify-content: right;
+
+        >img {
+            height: 80px;
+            width: auto;
+            cursor: pointer;
+            position: static;
+            padding-bottom: 10px;
+            margin-top: -40px;
+        }
+
+        .spin {
+            animation: spin linear 1s infinite;
+
+            @keyframes spin {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+                
+            }
+        }
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+
+        #right {
+            text-align: right;
+            >p {
+                font-size: 16px;
+                margin: 0 0 16px 0;
+            }
+        .input-group {
+            display: flex;
+            justify-content: right;
+            max-width: none;
+            width: auto;
+            padding: 10px 0px;
+
+            >input, select {
+                height: 45px;
+                width: auto;
+                font-size: 16px;
+                color: lightgray;
+                box-sizing: border-box; 
+            }
+
+            >input, textarea{
+                color: #f2cad8;
+            }
+
+            >input::placeholder, select::placeholder{
+                color: lightgray;
+            }
+
+            >button {
+            width: 60px;
+            height: 45px;
+            cursor: pointer;
+            background-color: red;
+            border: 1.5px solid black;
+            padding: 6px 12px;
+                
+                &:hover {
+                    opacity: 0.5;
+                }
+
+                >img {
+                width: auto;
+                height: 30px;
+                }
+            }    
+        }
+        }
+
+        #left {
+            >p {
+                font-size: 10px;
+                margin: 0 0 16px;
+            }  
+        }
+
+        div {
+            width: 33%;
+            max-width: 50%;
+
+            >h4, h3{
+
+                >span {
+                    color: red;
+                    font-weight: 900;
+                }
+            }
+
+            >nav {
+                >a {
+
+                    >img {
+                        height: auto;
+                        width: 32px;
+                        cursor: pointer;
+                        padding: 15px 15px 15px 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    >.copyright {
+        > #copyright {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;  
+            width: 100%;
+            
+            > ul {
+                display: flex;
+                margin-bottom: 16px;
+
+                >li {
+                    list-style: none;
+                    font-family: 'Lato';
+                    font-size: 12px;
+                    line-height: 1.5;
+                    padding: 0 15px 15px 0;
+                    margin: 0;
+                
+                    >a {
+                        color: white;
+                    }
+                    >a:hover {
+                        color: red;
+                    }
+                }
+            }
+        }
+
+    }
+}
