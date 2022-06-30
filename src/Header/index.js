@@ -14,7 +14,7 @@ function Header() {
   return (
     <>
       <header>
-        <div>
+        <div className="gutters">
           <h1>Madeleine Randall</h1>
           {menuOpen ? (
             <img

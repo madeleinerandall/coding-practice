@@ -17,15 +17,16 @@ aside div {
 }
 aside a {
     font-size: 30px;
-    font-family: sans-serif;
+    font-family: "Anek Latin";
     text-decoration: none;
     color: black;
     padding: 15px 15px;
     margin-bottom: 15px;
 }
 aside > div > a:hover {
-    background-color: #f44434;
-    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: rgb(255,0,0,0.1);
 }
 #junk {
     height: 86px;

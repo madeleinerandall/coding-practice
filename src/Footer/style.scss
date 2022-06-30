@@ -33,7 +33,8 @@ footer {
     .footer {
         display: flex;
         justify-content: space-between;
-        padding-top: 80px;
+        font-family: "Anek Latin";
+        padding-top: 30px;
 
         #right {
             text-align: right;
@@ -53,6 +54,7 @@ footer {
                 width: auto;
                 font-size: 16px;
                 color: lightgray;
+                font-family: "Anek Latin";
                 box-sizing: border-box; 
             }
 
@@ -62,6 +64,7 @@ footer {
 
             >input::placeholder, select::placeholder{
                 color: lightgray;
+                font-family: "Anek Latin";
             }
 
             >button {
@@ -73,7 +76,8 @@ footer {
             padding: 6px 12px;
                 
                 &:hover {
-                    opacity: 0.5;
+                    border: 2px solid red;
+                    background-color: rgb(255,0,0,0.1);
                 }
 
                 >img {
@@ -130,7 +134,7 @@ footer {
 
                 >li {
                     list-style: none;
-                    font-family: 'Lato';
+                    font-family: "Anek Latin";
                     font-size: 12px;
                     line-height: 1.5;
                     padding: 0 15px 15px 0;

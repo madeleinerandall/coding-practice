@@ -35,7 +35,7 @@ function Footer() {
           <h4>
             Madeleine Randall <span>-</span>
           </h4>
-          <h4>Profolio Website 2: a demonstration of coding skills</h4>
+          <h4>Profolio Website: a demonstration of coding skills</h4>
           <h4>Code for the future ~</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <p>

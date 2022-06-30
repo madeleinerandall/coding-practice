@@ -1,4 +1,64 @@
-section {
+.body {
+    background-color: #FCF4F7;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 200px;
+}
+.body-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.body-img {
+    height: 400px;
+    width: auto;
+    margin-top: -150px;
+}
+.content {
+    width: 30%;
+    font-family: "Anek Latin";
+    padding-top: 70px;
+}
+.content > h3 {
+    font-size: xxx-large;
+    margin-bottom: 30px;
+}
+.content > a {
+    background-color: rgba(1,22,55);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid #011637;
+    padding: 15px 15px;
+}
+.content > a:hover {
+    background-color: rgba(1,22,55,0.7);
+}
+.content > p {
+    margin-top: 30px;
+
+}
+.content2 {
+    padding-top: 50px;
+}
+.body-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -240px;
+}
+#body-arrow {
+    height: 150px;
+    width: auto;
+}
+#second-image {
+    padding-right: 40px;
+    margin-top: 0;
+    margin-bottom: -70px;
+}
+#body-second-content-section {
+    display: flex;
+}
+#second-h3 {
+    margin-top: 30px;
 }
